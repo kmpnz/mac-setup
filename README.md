@@ -1,1 +1,1 @@
-# mac-setup
+# Mac Setup Guide
