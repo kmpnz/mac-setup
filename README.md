@@ -1,5 +1,18 @@
 # Mac Setup Guide
 
+## Mac Settings
+
+Show the path bar in Finder:
+```bash
+defaults write com.apple.finder ShowPathbar -bool true
+```
+
+Show the status bar:
+```bash
+defaults write com.apple.finder ShowStatusBar -bool true
+```
+
+
 
 ## Brew
 ### Installation
