@@ -2,6 +2,13 @@
 
 ## Mac Settings
 
+### TL;DR
+```bash
+./setup.sh
+```
+
+### Detailed
+
 Show the path bar in Finder:
 ```bash
 defaults write com.apple.finder ShowPathbar -bool true
@@ -10,6 +17,11 @@ defaults write com.apple.finder ShowPathbar -bool true
 Show the status bar:
 ```bash
 defaults write com.apple.finder ShowStatusBar -bool true
+```
+
+Hide the dock:
+```bash
+defaults write com.apple.dock autohide -boolean true && killall Dock
 ```
 
 
