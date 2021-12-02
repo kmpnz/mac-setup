@@ -35,7 +35,7 @@ defaults write com.apple.dock autohide -boolean true && killall Dock
 ### After Installation
 There are a couple of steps that needs to be done after the installation. 
 
-`fzf` needs the following command:
+`fzf` needs the following command to be run from the Terminal:
 ```bash
 $(brew --prefix)/opt/fzf/install
 ```
@@ -45,6 +45,7 @@ Modify the `~/.zshrc` to add the following lines to add initialise `starship` an
 ```
 eval "$(starship init zsh)"
 eval $(thefuck --alias)
+. /opt/homebrew/etc/profile.d/z.sh
 ```
 
 

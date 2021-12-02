@@ -57,3 +57,7 @@ syntax enable
 set termguicolors
 set background=dark
 colorscheme dracula
+
+" Disables the folding for markdown
+let g:vim_markdown_folding_disabled = 1
+
