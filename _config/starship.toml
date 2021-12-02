@@ -1,0 +1,17 @@
+command_timeout = 1000
+add_newline = false
+
+[line_break]
+disabled = true
+
+
+
+[git_metrics]
+added_style = "bold blue"
+format = '[+$added]($added_style)/[-$deleted]($deleted_style) '
+
+[cmd_duration]
+min_time = 4
+show_milliseconds = false
+disabled = false
+style = "bold italic #87A752"

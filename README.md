@@ -32,6 +32,22 @@ defaults write com.apple.dock autohide -boolean true && killall Dock
 1. Install the bundle with `brew bundle`
 
 
+### After Installation
+There are a couple of steps that needs to be done after the installation. 
+
+`fzf` needs the following command:
+```bash
+$(brew --prefix)/opt/fzf/install
+```
+
+Modify the `~/.zshrc` to add the following lines to add initialise `starship` and `thefuck`:
+
+```
+eval "$(starship init zsh)"
+eval $(thefuck --alias)
+```
+
+
 ### Updating Brewfile
 To generate a new `Brewfile` run the following command: 
 
